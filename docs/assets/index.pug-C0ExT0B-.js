@@ -3,7 +3,7 @@
                 class="${g} ${r===t?_:v}">
             ${e.label}
         </button>`).join(``),b=e=>e.authors.map(e=>t[e].name).join(` / `),x=e=>{let t=e.tags.slice(0,2),n=e.tags.length-2;return t.map(e=>`<span class="${l} ${u}">${e}</span>`).concat(n>0?`<span class="${l} ${d}">+${n}</span>`:[]).join(``)},S=e=>e.img_url?`<div class="${a}">
-           <img src="/imgs/preview/${e.img_url}" alt="${e.name}" loading="lazy" class="${o}">
+           <img src="./imgs/preview/${e.img_url}" alt="${e.name}" loading="lazy" class="${o}">
            <div class="${s}"></div>
        </div>`:``,C=e=>`
     <div class="flex justify-between items-start gap-3">
