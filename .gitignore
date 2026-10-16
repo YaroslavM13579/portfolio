@@ -1,0 +1,9 @@
+/trash/
+/node_modules/
+/package-lock.json
+
+/public/
+/src/
+/package.json
+/tsconfig.json
+/vite.config.ts
